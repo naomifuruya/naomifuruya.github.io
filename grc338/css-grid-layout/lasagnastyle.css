@@ -30,7 +30,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     grid-template-rows: 5em auto 3em;
-    grid-row-gap: 11em;
+    grid-row-gap: 12em;
     grid-column-gap: 2.5em;
     margin-bottom: 2em;
 }
