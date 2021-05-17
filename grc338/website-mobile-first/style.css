@@ -1,0 +1,99 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%; 
+    align: center;
+}
+
+figure {
+    margin: 1.7em 0em 1em 0em;
+}
+
+nav, h2, h3, p, h1 {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+header h1 a img{
+    width: 40%;
+    margin-left: .5em;
+    margin-left: 0;
+    align: center;
+}
+
+nav ul li{
+    display: inline;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:rgb(114, 3, 12);
+    font-size: 0.9em;
+    text-transform: uppercase;
+    padding: 0em 1em 0em 1em;
+}
+
+nav ul li a:hover {
+    color: rgb(193, 149, 101);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+body {
+    font-family: "droid-sans", sans-serif;
+    margin: 0em;
+    text-align: center;
+    background-color:rgb(250, 250, 250);
+}
+
+h1 {
+    line-height: 1em;
+    font-size: 1.5em;
+    color: rgb(114, 3, 12);
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: .5em;
+    margin-bottom: .75em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-top: 1em;
+    color: rgb(114, 3, 12);   
+    text-align: center; 
+    margin: 1em 1em 0em 1em;
+}
+
+h4 {  
+    font-size: 1em;
+    padding: 0em 0em 0em 0em;
+    color: rgb(193, 149, 101); 
+    line-height: 0.2em;
+    text-align: center;
+    margin: 1.8em 0em 0.8em 0em;
+}
+
+p {
+    line-height: 1.75em;
+    text-align: center;
+    margin: 0em 1em;
+}
+
+footer{
+    font-style: italic;
+    font-size: 0.8em;
+    margin: 2em 0em 1em 0em;
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
