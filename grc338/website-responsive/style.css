@@ -1,0 +1,135 @@
+/*CSS DOCUMENT*/
+
+div.container {
+    max-width: 55em;
+    margin: auto;
+}
+
+img {
+    width: 100%; 
+}
+
+figure {
+    margin: 1.7em 0em 1em 0em;
+}
+
+nav ul li {
+    display: inline;
+    font-weight: bold;
+    margin: 2em 1.8em 2em 0em;
+    margin-top: 2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:rgb(114, 3, 12);
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: rgb(193, 149, 101);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+p a:hover {
+    color:rgb(114, 3, 12);
+}
+
+body {
+    font-family: "droid-sans", sans-serif;
+    margin: 0em;
+    background-color:rgb(250, 250, 250);
+}
+
+h1 {
+    line-height: 1em;
+    font-size: 1.5em;
+    color: rgb(114, 3, 12);
+    width: 10em;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: 100;
+    font-style: italic;
+    margin-top: 1.2em;
+    margin-bottom: .6em;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-top: 1em;
+    color: rgb(114, 3, 12);   
+    margin: 1em 0em 0em 1em;
+}
+
+h4 {  
+    font-size: 1em;
+    padding: 0em 0em 0em 0em;
+    color: rgb(193, 149, 101); 
+    line-height: 0.2em;
+    margin: 1.8em 0em 0.8em;
+}
+
+p {
+    line-height: 1.75em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+footer {
+    font-style: italic;
+    font-size: 0.8em;
+    margin: 2em 0em;
+    margin-bottom: 2em;
+}
+
+p, h1, h2, h3, h4, nav {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+@media screen and (min-width: 55em) {
+
+    header h1 a img, p, h2, h3, h4, nav {
+    margin-left: 0rem;
+    }
+
+    header {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    nav {
+        margin: 0;
+        padding-top: 2em;
+    }
+
+    nav ul {
+        text-align: right;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-left: 1.5em;
+        font-size: 1.5em;
+    }
+
+    h1 {
+        margin-left: 0;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+}
