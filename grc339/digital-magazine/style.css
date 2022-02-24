@@ -1,7 +1,7 @@
 /*CSS document*/
 
 div.container {
-    max-width: 65em;
+    max-width: 60em;
     margin: 0 auto;
 }
 
@@ -64,6 +64,7 @@ h3 {
 
 p {
     margin-top: 0.5em;
+    line-height: 1.3em;
 }
 
 figure {
