@@ -1,7 +1,7 @@
 /*CSS document*/
 
 div.container {
-    max-width: 60em;
+    max-width:55em;
     margin: 0 auto;
 }
 
@@ -140,5 +140,10 @@ footer {
 
     aside {
         grid-column: 2/3;
+    }
+
+    article {
+        grid-column: 0/3;
+        max-width: 40em;
     }
 }
