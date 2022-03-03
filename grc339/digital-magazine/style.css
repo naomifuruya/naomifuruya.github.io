@@ -1,17 +1,18 @@
 /*CSS document*/
 
 div.container {
-    max-width:55em;
+    max-width:60em;
+    margin: 0 auto;
+}
+
+div.mainstory {
+    max-width: 40em;
     margin: 0 auto;
 }
 
 section {
    max-width: 40em;
-   margin: 0 auto 3em; 
-}
-
-h1{
-    width: 40%;
+   margin: 0 auto 3em;
 }
 
 img {
@@ -20,8 +21,6 @@ img {
 }
 
 html {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-style: normal;
     background: #FAFAFA;
     padding: 1em;
 }
@@ -31,8 +30,10 @@ header {
 }
 
 nav ul li{
+    font-family: blakely, sans-serif;
+    font-weight: 500;
+    font-size: 1.5em;
     text-transform: uppercase;
-    font-weight: 400;
     display: inline;
     margin-right: 1.5em;
     color: #333333;
@@ -56,14 +57,31 @@ nav {
     text-align: left;
 }
 
+h1{
+    width: 40%;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: 450;
+    font-family: bilo, san-serif;
+    font-style: normal;   
+    margin: 0.3em 0 0; 
+}
+
 h3 {
+    font-family: bilo, san-serif;
+    font-weight: 450;
     color: #333333;
     margin-bottom: 0;
-    margin-top: 0.5em;
+    margin-top: 0.2em;
+    line-height: 1.2em;
+    font-size: 1.1em;
 }
 
 p {
-    margin-top: 0.5em;
+    font-family: bilo, san-serif;
+    margin: 0.3em 0 1em;
     line-height: 1.3em;
 }
 
@@ -72,11 +90,15 @@ figure {
 }
 
 figcaption {
+    font-family: bilo, san-serif;
     font-style: italic;
+    font-size: 0.9em;
+    padding: 0.5em 0 1em 0;
 }
 
 footer {
     margin-top: 0.5em;
+    font-size: 0.9em;
 }
 
 @media screen and (min-width: 60em){
@@ -95,6 +117,12 @@ footer {
         grid-column: 1/2;
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        grid-gap: 0 1em;
+    }
+
+    div.mainstory {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
         grid-gap: 0 1em;
     }
 
@@ -130,7 +158,7 @@ footer {
 
     section.mainstory h3 {
         flex: 0 0 auto;
-        margin: 1em 0;
+        margin: 1em 0 0.3em;
     }
 
     section.mainstory p {
@@ -144,6 +172,5 @@ footer {
 
     article {
         grid-column: 0/3;
-        max-width: 40em;
     }
 }
